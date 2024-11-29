@@ -1,0 +1,11 @@
+#!name = 懂球帝去广告
+#!desc = 去广告
+#!author = 来自woolscript提取
+#!icon = https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/b2/d8/ccb2d8d8-cd9b-8a6c-4ffd-deb154573d32/AppIcon-0-0-1x_U007ephone-0-0-0-85-220.png/1024x1024bb.png
+#!date = 2024-11-29 10:34:38
+
+[Rewrite]
+^https?:\/\/ap\.dongqiudi\.com\/plat\/v reject
+
+[MITM]
+hostname = ap.dongqiudi.com
