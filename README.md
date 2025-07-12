@@ -1,13 +1,17 @@
-# QX Scripts and profiles for ***own use***  
-[让我们说中文](./README_CN.md)
+> ![IMPORTANT]
+> We don't produce code; we're just code porters.
+
+# ~~QX~~ Loon Scripts for ***own use***  
+
 ## Introduction
 Due to the @RuCu6 delete the original repository, and in order to keep the AD block scripts working properly. So build this new repository.
 
 These have been tested:
-- [x] wepage.conf
+- [x] ~~wepage.conf~~(not work anymore)
 - [x] dongqiudi.plugin
+- [] zhengqi.plugin
 
-> I can't write code.
+## TODO
 
 Now, it contains not only scripts but also numerous [proxy profiles](./Profile/), which are for personal use and have been slightly modified based on other authors' profiles. If I forget to write your ID in contribution, please feel free to email me.
 

@@ -1,0 +1,9 @@
+#!name = 正气助手 
+#!desc = 去主界面广告 
+#!author = sliverkiss
+
+[rewrite]
+^https:\/\/apio\.zhengqi100\.com\/forum\/thread\/listsHome url reject-dict
+
+[MITM]
+hostname = apio.zhengqi100.com
