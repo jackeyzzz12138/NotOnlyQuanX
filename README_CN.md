@@ -1,3 +1,6 @@
+>[!WARNING]
+> 中文README已停更
+
 # 用于***个人使用***的QX脚本和配置文件  
 [Let's speak English](./README.md)  
 

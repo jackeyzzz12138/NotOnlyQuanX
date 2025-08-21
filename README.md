@@ -1,7 +1,7 @@
 > [!IMPORTANT]
 > We don't produce code; we're just code porters.
 
-# ~~QX~~ Loon Scripts for ***own use***  
+# profiles and scripts for ***own use***  
 
 <!-- Keep these links. Translations will automatically update with the README. -->
 [Deutsch](https://readme-i18n.com/jackeyzzz12138/NotOnlyQuanX?lang=de) | 
@@ -18,9 +18,8 @@
 Due to the @RuCu6 delete the original repository, and in order to keep the AD block scripts working properly. So build this new repository.
 
 These have been tested:
-- [x] ~~wepage.conf~~(not work anymore)
 - [x] dongqiudi.plugin
-- [] zhengqi.plugin
+- [x] zhengqi.plugin
 
 ## TODO
 
@@ -28,10 +27,10 @@ Now, it contains not only scripts but also numerous [proxy profiles](./Profile/)
 
 supported platforms(To be continued):
 
-- surge (mac)
-- shadowrocket
+- [x] surge (mac)
+- [x] shadowrocket
 - QuanX
-- Loon
+- [x] Loon
 - clash verge rev
 - mihomo party
 - ~~clash for windows~~
@@ -46,7 +45,8 @@ supported platforms(To be continued):
 - Q: Why only has this script/rewrite, not others?  
   A: ~~Because I don't need that.~~ Now, It has the profiles.😊
 
-## Contribution
-Thanks for the contribution of these developers, some scripts from their works:  
+## Acknowledgement
+Thanks for the contribution of these developers, some scripts and rulesets from their works:  
 - [@RuCu6](https://github.com/RuCu6)
 - [@RagBagCN](https://github.com/RagBagCN)
+- [@Sukka](https://github.com/SukkaW/SukkaW)
