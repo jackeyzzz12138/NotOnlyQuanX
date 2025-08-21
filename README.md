@@ -18,19 +18,19 @@
 Due to the @RuCu6 delete the original repository, and in order to keep the AD block scripts working properly. So build this new repository.
 
 These have been tested:
-- [x] dongqiudi.plugin
-- [x] zhengqi.plugin
+- [x] [dongqiudi.plugin](./Plugins/dongqiudi.plugin) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Plugins/dongqiudi.plugin)
+- [x] [zhengqi.plugin](./Plugins/zhengqi.plugin) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Plugins/zhengqi.plugin)
 
 ## TODO
 
-Now, it contains not only scripts but also numerous [proxy profiles](./Profile/), which are for personal use and have been slightly modified based on other authors' profiles. If I forget to write your ID in contribution, please feel free to email me.
+Now, it contains not only scripts but also numerous [proxy profiles](./Profile/) | [Raw Folder](https://github.com/jackeyzzz12138/NotOnlyQuanX/tree/main/Profile), which are for personal use and have been slightly modified based on other authors' profiles. If I forget to write your ID in contribution, please feel free to email me.
 
 supported platforms(To be continued):
 
-- [x] surge (mac)
-- [x] shadowrocket
+- [x] [surge (mac)](./Profile/surge_mac.conf) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Profile/surge_mac.conf)
+- [x] [shadowrocket](./Profile/shadowrocket.conf) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Profile/shadowrocket.conf)
 - QuanX
-- [x] Loon
+- [x] [Loon](./Profile/loon.conf) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Profile/loon.conf)
 - clash verge rev
 - mihomo party
 - ~~clash for windows~~
