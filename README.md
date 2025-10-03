@@ -21,7 +21,7 @@ These have been tested:
 - [x] [dongqiudi.plugin](./Plugins/dongqiudi.plugin) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Plugins/dongqiudi.plugin)
 - [x] [zhengqi.plugin](./Plugins/zhengqi.plugin) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Plugins/zhengqi.plugin)
 
-## TODO
+
 
 Now, it contains not only scripts but also numerous [proxy profiles](./Profile/) | [Raw Folder](https://github.com/jackeyzzz12138/NotOnlyQuanX/tree/main/Profile), which are for personal use and have been slightly modified based on other authors' profiles. If I forget to write your ID in contribution, please feel free to email me.
 
@@ -31,8 +31,8 @@ supported platforms(To be continued):
 - [x] [shadowrocket](./Profile/shadowrocket.conf) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Profile/shadowrocket.conf)
 - QuanX
 - [x] [Loon](./Profile/loon.conf) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Profile/loon.conf)
-- clash verge rev
-- mihomo party
+- ~~clash verge rev~~
+- [x] ~~mihomo party~~ [sparkle scripts](./Profile/scripts.js) | [Raw](https://raw.githubusercontent.com/jackeyzzz12138/NotOnlyQuanX/main/Profile/scripts.js) 
 - ~~clash for windows~~
 
 ## Q&A
@@ -50,3 +50,4 @@ Thanks for the contribution of these developers, some scripts and rulesets from 
 - [@RuCu6](https://github.com/RuCu6)
 - [@RagBagCN](https://github.com/RagBagCN)
 - [@Sukka](https://github.com/SukkaW/SukkaW)
+- [@yyhhyyyyyy](https://github.com/yyhhyyyyyy/selfproxy)
