@@ -723,6 +723,9 @@ function overwriteRules(params) {
     const customRules = [
         // 在此添加自定义规则，优先级次于ad。例子：
         // "DOMAIN,baidu.com,DIRECT",
+        "DOMAIN,steamcdn-a.akamaihd.net,DIRECT",
+        "DOMAIN-SUFFIX,cm.steampowered.com,DIRECT",
+        "DOMAIN-SUFFIX,steamserver.net,DIRECT"
     ];
 
     const nonipRules = [
