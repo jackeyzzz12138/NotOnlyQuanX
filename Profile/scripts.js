@@ -47,6 +47,8 @@ function overwriteBasicOptions(params) {
             },
             "skip-domain": ["Mijia Cloud", "+.push.apple.com"]
         },
+        "external-controller": 0.0.0.0:9090,
+        "secret": "fuckyoub7"
     };
     Object.keys(otherOptions).forEach((key) => {
         params[key] = otherOptions[key];
@@ -494,11 +496,11 @@ function overwriteTunnel(params) {
     const tunnelOptions = {
         enable: true,
         stack: "system",
-        device: "tun0",
         "dns-hijack": ["any:53", "tcp://any:53"],
         "auto-route": true,
         "auto-detect-interface": true,
         "strict-route": true,
+        "auto-redirect": true,
         // 根据自己环境来看要排除哪些网段
         "route-exclude-address": [],
     };
