@@ -47,8 +47,9 @@ function overwriteBasicOptions(params) {
             },
             "skip-domain": ["Mijia Cloud", "+.push.apple.com"]
         },
-        "external-controller": 0.0.0.0:9090,
-        "secret": "fuckyoub7"
+        //有bug，去掉
+        // "external-controller": 0.0.0.0:9090,
+        // "secret": "fuckyoub7"
     };
     Object.keys(otherOptions).forEach((key) => {
         params[key] = otherOptions[key];
