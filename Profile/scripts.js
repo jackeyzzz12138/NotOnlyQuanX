@@ -664,6 +664,13 @@ function overwriteProxyGroups(params) {
             icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Telegram.png"
         },
         {
+            name: "Twitter",
+            type: "select",
+            proxies: ["🎯 节点选择", "低倍率 - 自动选择", "HK - 自动选择", "JP - 自动选择", "KR - 自动选择", "SG - 自动选择", "US - 自动选择", "UK - 自动选择", "FR - 自动选择", "DE - 自动选择", "TW - 自动选择", "其它 - 自动选择"],
+            // "include-all": true,
+            icon: "https://raw.githubusercontent.com/Orz-3/mini/master/Color/Twitter.png"
+        },
+        {
             name: "🤖 AIGC",
             type: "select",
             proxies: ["US - 自动选择", "🎯 节点选择", "HK - 自动选择", "JP - 自动选择", "KR - 自动选择", "SG - 自动选择", "UK - 自动选择", "FR - 自动选择", "DE - 自动选择", "TW - 自动选择", "其它 - 自动选择"],
@@ -728,12 +735,14 @@ function overwriteRules(params) {
         // "DOMAIN,baidu.com,DIRECT",
         "DOMAIN,steamcdn-a.akamaihd.net,DIRECT",
         "DOMAIN-SUFFIX,cm.steampowered.com,DIRECT",
-        "DOMAIN-SUFFIX,steamserver.net,DIRECT"
+        "DOMAIN-SUFFIX,steamserver.net,DIRECT",
+        "DOMAIN,api-shoulei-ssl.xunlei.com,DIRECT"
     ];
 
     const nonipRules = [
         "RULE-SET,cdn_domainset,CDN",
         "RULE-SET,cdn_non_ip,CDN",
+        "RULE-SET,twitter,Twitter",
         "RULE-SET,stream_non_ip,🎬 流媒体",
         "RULE-SET,telegram_non_ip,✈️ 电报信息",
         "RULE-SET,apple_cdn,DIRECT",
@@ -751,8 +760,8 @@ function overwriteRules(params) {
     ];
 
     const allNonipRules = [
-        ...adNonipRules,
         ...customRules,
+        ...adNonipRules,
         ...nonipRules
     ];
 
@@ -1017,6 +1026,15 @@ function overwriteRules(params) {
             format: "text",
             proxy: "🎯 节点选择"
         },
+        twitter: {
+            type: "http",
+            behavior: "classical",
+            url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Twitter/Twitter.yaml",
+            path: "./rule_set/sukkaw_ruleset/Twitter.yaml",
+            interval: 43200,
+            format: "yaml",
+            proxy: "🎯 节点选择"
+        }
     };
 
     params["rule-providers"] = ruleProviders;
